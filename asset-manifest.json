@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/miratex_house/static/css/main.0789a178.css",
+    "main.js": "/miratex_house/static/js/main.830be059.js",
+    "static/media/pic1.jpg": "/miratex_house/static/media/pic1.f2b9e951f1ca3d9d234a.jpg",
+    "static/media/pic4.jpg": "/miratex_house/static/media/pic4.d5490cdef2790305e31a.jpg",
+    "static/media/main.jpg": "/miratex_house/static/media/main.d1fa40913047975568f7.jpg",
+    "static/media/pic5.jpg": "/miratex_house/static/media/pic5.a78cc7f3d8eb476cbc48.jpg",
+    "static/media/pic6.jpg": "/miratex_house/static/media/pic6.221fbd4e4ece717684c5.jpg",
+    "static/media/pic7.jpg": "/miratex_house/static/media/pic7.132ac101826ddb0b4b99.jpg",
+    "static/media/pic3.jpg": "/miratex_house/static/media/pic3.ef2db6a7ee058d3e2730.jpg",
+    "static/media/pic2.jpg": "/miratex_house/static/media/pic2.fcc51eab646ed3f83679.jpg",
+    "static/media/line.svg": "/miratex_house/static/media/line.43a8368e70e3701f6ace7137f5681f01.svg",
+    "static/media/logo.svg": "/miratex_house/static/media/logo.ae71533a2d2d00a70d02dd9affe66135.svg",
+    "static/media/footer-logo.svg": "/miratex_house/static/media/footer-logo.7e77f7d5a9a2fd75c98044b23cf60faa.svg",
+    "static/media/share.svg": "/miratex_house/static/media/share.f1c98bf509e70edd9b187ea0080bf5d2.svg",
+    "index.html": "/miratex_house/index.html",
+    "static/media/login.svg": "/miratex_house/static/media/login.1979c5182edcb8c84da8e3c8f5414acb.svg",
+    "static/media/ArrowDown.svg": "/miratex_house/static/media/ArrowDown.ca622fced5f961cd14a9aed05e8f7ad3.svg",
+    "static/media/Ellipse.svg": "/miratex_house/static/media/Ellipse.7ce29285b3d6a1e80b2ca5f4da35e2ef.svg",
+    "main.0789a178.css.map": "/miratex_house/static/css/main.0789a178.css.map",
+    "main.830be059.js.map": "/miratex_house/static/js/main.830be059.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0789a178.css",
+    "static/js/main.830be059.js"
+  ]
+}
