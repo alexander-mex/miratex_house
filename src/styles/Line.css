@@ -1,0 +1,31 @@
+.line-container {
+  width: 100%;
+}
+
+.line {
+  margin-top: -3rem;
+  margin-left: 4rem;
+  position: relative;
+  width: 47%;
+}
+
+.line img {
+  width: 35%;
+  position: absolute;
+  z-index: -1;
+}
+
+.ellipse img {
+  margin-top: 50%;
+  transform: translateY(-50%);
+  margin-left: 4rem;
+}
+
+.ell.active {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  height: 0;
+  width: 0;
+}

@@ -1,0 +1,153 @@
+#main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-bottom: 15rem;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: 15rem 0 0 10rem;
+}
+
+.about p {
+  grid-area: 1 / 1 / 2 / 2;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.about h3 {
+  grid-area: 2 / 1 / 3 / 2;
+  font-size: 6.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  margin-top: -3rem;
+}
+
+.about span {
+  grid-area: 1 / 2 / 3 / 3;
+  text-transform: none;
+  font-size: 1.4rem;
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  width: 40rem;
+  margin: 0 0 0 12rem;
+  padding: 0;
+
+}
+
+.main-image {
+  grid-area: 3 / 1 / 4 / 3;
+  width: 997.25px;
+  height: 634px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 15rem;
+}
+
+.side {
+  grid-area: 4 / 4 / 4 / 2;
+  margin: 15rem 0 0 14rem;
+  font-size: 1.4rem;
+}
+
+.side p {
+  text-transform: none;
+}
+
+#arrows-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto; 
+}
+
+#arrows-area h3 {
+  grid-area: 1 / 1 / 2 / 2;
+  font-size: 4.8rem;
+  margin: 13rem 0 8rem 10rem;
+  text-transform: uppercase;
+}
+
+.left {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.left a:hover {
+  background-color: #e4e6e7;
+  box-shadow: 2px 2px 2px;
+  transform: scale(1.1);
+}
+
+.right {
+  grid-area: 2 / 2 / 3 / 3;
+  margin-left: 0rem;
+}
+
+.right a:hover {
+  background-color: #e4e6e7;
+  box-shadow: 2px 2px 2px;
+  transform: scale(1.1);
+}
+
+.arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transform: translateX(-10px);
+}
+
+.arrow a+p{
+  margin-left: 3rem;
+  align-items: start;
+}
+
+.arrow p {
+  font-size: 1.8rem;
+}
+
+.earn {
+  grid-area: 3 / 2 / 4 / 3;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 16rem;
+}
+
+.earn h3 {
+  margin: 13rem 0 8rem 0 !important;
+  text-transform: uppercase;
+}
+
+.earn p {
+  font-size: 1.4rem;
+  width: 75%;
+  margin-left: -1rem;
+  margin-bottom: 4rem;
+}
+
+.earn-btn {
+  border: 2px solid black;
+  padding: 2.4rem 14rem;
+  margin-left: 0;
+  color: #161616;
+}
+
+.earn-btn:hover {
+  background-color: #e4e6e7;
+  box-shadow: 2px 2px 2px;
+  transform: scale(1.1);
+}
+
+.earn a {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}

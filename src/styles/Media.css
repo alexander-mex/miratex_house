@@ -1,0 +1,165 @@
+@media (max-width: 1320px) {
+  body {
+    min-width: 1330px;
+  }
+
+  .line img {
+    width: 60% !important;
+  }
+
+  .ellipse img {
+    width: 4rem;
+  }
+
+  .social-links {
+    display: flex;
+    box-shadow: 0px 4px 6px rgb(0 0 0 / 10%);
+    width: 20rem;
+    padding: 2.5rem;
+    margin-top: 14rem;
+    position: absolute;
+    right: 13%;
+    position: fixed;
+  }
+}
+
+@media (max-width: 1140px) {
+  .logo img {
+    width: 80%;
+  }
+
+  .logo p {
+    width: 40%;
+    margin-left: -7px;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .links {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .links li+li {
+    padding: 0;
+  }
+
+  .ellipse img {
+    width: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    min-width: 1290px;
+  }
+  
+  .burger-menu {
+    display: block;
+    margin: 0 2rem;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .lang {
+    display: none;
+  }
+
+  .bounce {
+    font-size: 2rem;
+  }
+
+  .social-buttons {
+    display: none;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  .bar-social-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .bar-social-buttons img {
+    width: 3rem;
+  }
+
+  .bar-social-buttons p {
+    font-size: 2rem;
+  }
+
+  .bar-social-buttons .login img {
+    width: 2rem;
+    margin-left: 3rem; 
+  }
+
+  .bar-social-buttons .login p {
+    font-size: 2rem;
+  }
+
+  .share, .login {
+    margin: 0 0 1rem 0;
+  }
+
+  .bar-social-links ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bar-social-links i {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+
+  .bar-social-links li+li {
+    margin-left: 3rem;
+  }
+
+  .bar-lang {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+
+  .bar-lang li+li {
+    margin-left: 2rem;
+  }
+
+  .bar-lang li {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #cacaca;
+  }
+  
+  .bar-lang .active {
+    color: #161616;
+  }
+  
+  .bar-lang a {
+    cursor: pointer;
+  }
+  
+  .bar-lang .active {
+    text-decoration: underline;
+  }
+
+  .line {
+    width: 51% !important;
+    margin-left: 2rem !important;
+  }
+
+  .line img {
+    width: 85% !important;
+  }
+
+  .ellipse img {
+    margin-left: 2rem !important;
+  }
+}

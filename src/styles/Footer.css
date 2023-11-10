@@ -1,0 +1,96 @@
+#contacts {
+  width: 100%;
+  background-color: #161616;
+}
+
+.footer {
+  padding-top: 7.5rem;
+  display: flex;
+}
+
+.col1 {
+  position: relative;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-left: -1rem;
+}
+
+.col1 li+li {
+  padding-left: 1rem;
+}
+
+.slash {
+  font-size: 3rem !important;
+}
+
+.col1 ul li {
+  color: white;
+  width: 80%;
+  font-size: 1.4rem;
+}
+
+.our-team {
+  margin-top: 7rem;
+  width: 50rem;
+}
+
+.col-info {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-info ul li {
+  color: white;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.col-info .head-info {
+  margin-bottom: 4.8rem;
+}
+
+.col-info li+li {
+  line-height: 3rem;
+}
+
+.under-footer {
+  display: flex;
+  position: relative;
+  margin-top: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.under-footer::before {
+  content: '';
+  position: absolute;
+  width: 90%;
+  top: 0;
+  left: 10rem;
+  border-top: 2px solid #fff;
+  text-align: center;
+}
+
+.under-footer ul li {
+  color: white;
+  margin-left: 3rem;
+}
+
+.under-footer-l {
+  width: 20%;
+  margin: 0 20rem 0 7rem;
+  font-size: 1.4rem;
+}
+
+.under-footer-r {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  font-size: 1rem;
+  text-transform: uppercase;
+}

@@ -1,0 +1,47 @@
+#catalog {
+  margin-bottom: 15rem;
+}
+
+#catalog h3 {
+  font-size: 6.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8.5rem;
+}
+
+.model {
+  display: flex;
+  margin-bottom: 4.8rem;
+}
+
+.model li {
+  font-size: 1.4rem;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.model li+li {
+  margin-left: 3.3rem;
+}
+
+.ctlg-btn {
+  border: 2px solid black;
+  text-align: center;
+  padding: 2.5rem 13.5rem;
+  width: 45%;
+  margin-left: 0;
+  cursor: pointer;
+}
+
+.ctlg-btn:hover {
+  background-color: #e4e6e7;
+  box-shadow: 2px 2px 2px;
+  transform: scale(1.1);
+}
+
+.ctlg-btn a {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #161616;
+}

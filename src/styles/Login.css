@@ -1,0 +1,105 @@
+.login-form {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 111;
+  background: rgba(0, 0, 0, .85);
+}
+
+.login-form.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form form {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-form form {
+  background-color: #f3f3f3;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  position: relative;
+  animation: fadeTop .25s ease-in;
+}
+
+.login-form #close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  color: rgb(179, 0, 0);
+  transition: transform 0.3s linear;
+}
+
+#close:hover {
+  transform: rotate(180deg);
+}
+
+.login-form h2 {
+  color: #333;
+}
+
+form h2 {
+  font-size: 3rem;
+}
+
+.frm {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.frm i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.box {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.frm-reg {
+  font-size: 1.5rem;
+}
+
+.frm-reg input+label {
+  padding-right: 8rem;
+}
+
+#remember {
+  margin-right: 5px;
+}
+
+.link-btn {
+  background-color: #006B94;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.link-btn:hover {
+  background-color: #6b9ebd;
+}
